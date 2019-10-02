@@ -13,5 +13,5 @@ script:
   - cd ..
   - cd ..
   - make VARIABLE=/path/to/something/ target
-  - make
+#  - make
   - test
