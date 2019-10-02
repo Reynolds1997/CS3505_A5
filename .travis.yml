@@ -1,0 +1,15 @@
+install: true
+language: cpp
+compiler: g++
+script:
+  - git clone https://github.com/google/googletest.git
+  - cd googletest
+  - cd googletest
+  - cmake .
+  - make clean
+  - make all
+  - cd ..
+  - cd ..
+  - make VARIABLE=/path/to/something/ target
+  - make
+  - test
