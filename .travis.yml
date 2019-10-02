@@ -12,6 +12,6 @@ script:
   - make all
   - cd ..
   - cd ..
-  - make VARIABLE=/path/to/something/ target
-#  - make
-  - test
+  - make GOOGLETEST=./googletest/googletest
+  - make
+  - make test
